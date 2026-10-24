@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "DM Serif Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --color-brand-charcoal: #20201e;
+  --color-brand-red: #b9382b;
+  --color-brand-red-hover: #922b22;
+  --color-brand-gold: #c58b45;
+  --color-brand-ivory: #faf6ef;
+  --color-brand-white: #ffffff;
+  --color-brand-text: #242321;
+  --color-brand-muted: #625d56;
+  --color-brand-pale: #f0e5d7;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: #faf6ef;
+  color: #242321;
+}
+
+.font-serif-display {
+  font-family: 'DM Serif Display', Georgia, serif;
+}
+
+.font-sans-body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Custom scrollbar for modern browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #faf6ef;
+}
+::-webkit-scrollbar-thumb {
+  background: #c58b45;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b9382b;
+}
+
+/* Focus outline accessibility */
+:focus-visible {
+  outline: 2px solid #b9382b;
+  outline-offset: 2px;
+}

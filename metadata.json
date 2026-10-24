@@ -1,0 +1,6 @@
+{
+  "name": "PANASIA Restaurant Patna",
+  "description": "Multi-cuisine restaurant in Kankarbagh, Patna, opposite Rajendra Nagar Terminal. Serving authentic North Indian and Indo-Chinese flavours.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
